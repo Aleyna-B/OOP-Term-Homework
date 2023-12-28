@@ -37,7 +37,8 @@ public abstract class InputControl {
 		return dispose;
 	}
 
-	public void setDispose(String despose) {
-		this.dispose = despose;
+	public void setDispose(String dispose) {
+		this.dispose = dispose;
+		this.dispose = null;	//so the garbage collector may dispose it earlier
 	}
 }
