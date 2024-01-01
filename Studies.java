@@ -7,9 +7,8 @@ public class Studies extends InputControl{
 		options.add("Do you want to understand the level of nerdiness?\n");
 		options.add("(1)- No i think you are lame.\n");
 		options.add("(2)- How do you usually manage your study schedule and workload?\n");
-		options.add("(3)- What have you been working on lately?\n");
-		options.add("(4)- Do you have a favourite subject?\n");
-		options.add("(5)- How have you been liking your major so far?\n");
+		options.add("(3)- Do you have a favourite subject?\n");
+		options.add("(4)- How have you been liking your major so far?\n");
 		}
 	
 	public Studies()
@@ -25,6 +24,7 @@ public class Studies extends InputControl{
 		options.forEach(op -> System.out.print(op));
 		if(baseControl())
 		{
+			options.set(getOpt(), "");
 			switch (this.getOpt())
 			{
 			case 1: System.out.println("Oh stop using the application then meanie!\n");
@@ -35,17 +35,12 @@ public class Studies extends InputControl{
 					this.studyMenu();
 			break;
 			
-			case 3:	Work work = new Work();
-					work.baseAnswer();
-					this.studyMenu();
-			break;
-			
-			case 4: FavSubject fav = new FavSubject();
+			case 3: FavSubject fav = new FavSubject();
 					fav.baseAnswer();
 					this.studyMenu();
 			break;
 			
-			case 5: Major major = new Major();
+			case 4: Major major = new Major();
 					major.baseAnswer();
 					this.studyMenu();
 			break;
@@ -55,10 +50,10 @@ public class Studies extends InputControl{
 	
 	public void intervalControl()
 	{
-		if(this.getOpt()<1 || this.getOpt()>5)
+		if(this.getOpt()<1 || this.getOpt()>4)
 		{
 			System.out.println("I think you accidentally pressed something you should not have.\n"
-					+ "The options you can choose are from 1 to 5\n");
+					+ "The options you can choose are from 1 to 4\n");
 			studyMenu();
 		}
 	}

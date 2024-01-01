@@ -5,7 +5,6 @@
 package com.mycompany.ooptermhw;
 
 /**
- *
  * @author benza
  */
 public class OOPTermHw {
@@ -15,6 +14,6 @@ public class OOPTermHw {
     	while(menu.getController() ==1) {
     	menu.Menu();
     	}
-    	menu.es.scan.close();
+    	menu.es.scan.close();	//releasing the scanner resources
 }
 }   

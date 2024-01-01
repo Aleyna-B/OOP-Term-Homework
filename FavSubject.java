@@ -14,7 +14,7 @@ public class FavSubject extends InputControl implements ISubAnswer{
 		System.out.println("Do you know the video about english being someones favourite language?\n(1)- Yes\n(2)- No");	
 		baseControl();
 		if(this.getOpt()==1) System.out.println("Hahah\n");
-		else if(this.getOpt()==2) System.out.println("Watch this: https://youtu.be/39UDZMgPg5k?feature=shared \n");
+		else if(this.getOpt()==2) System.out.println("This: https://youtu.be/39UDZMgPg5k?feature=shared \n");
 		}
 	}
 	

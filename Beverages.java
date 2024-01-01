@@ -1,9 +1,9 @@
 package com.mycompany.ooptermhw.food;
-
 import com.mycompany.ooptermhw.ISubAnswer;
 import com.mycompany.ooptermhw.InputControl;
 
 public class Beverages extends InputControl implements ISubAnswer{
+	public Beverages() {}
 	public void baseAnswer()
 	{
 		System.out.println("In a day i have 1 or 2 cups of coffee or tea,but not all of them in one day"

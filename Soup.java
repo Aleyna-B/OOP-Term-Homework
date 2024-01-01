@@ -1,6 +1,5 @@
 package com.mycompany.ooptermhw.food;
 import java.util.ArrayList;
-
 import com.mycompany.ooptermhw.ISubAnswer;
 import com.mycompany.ooptermhw.InputControl;
 
@@ -10,7 +9,7 @@ public class Soup extends InputControl implements ISubAnswer{
 	{
 		System.out.println("I guess i like mushroom soup.\nApparently you can put in lots of ingrediends in it\n"
 				+ "as well as differents kinds of mushrooms.\nIn some cultures, mushroom soup has even traditional or ceremonial significance."
-				+ "\nWhat soup do you like?\n(1)- Mercimek(Lentil)\n(2)- Tomato\n(3)- Tarhana");
+				+ "\nWhat soup do you like?\n(0)- Mercimek(Lentil)\n(1)- Tomato\n(2)- Tarhana");
 		baseControl();
 		this.setSouptype(getOpt());
 		extraAnswer(this.getSouptype());
@@ -18,10 +17,10 @@ public class Soup extends InputControl implements ISubAnswer{
 	
 	public void intervalControl()
 	{
-		if(this.getOpt()<1 || this.getOpt()>3)
+		if(this.getOpt()<0 || this.getOpt()>3)
 		{
 			System.out.println("I think you accidentally pressed something you should not have.\n"
-					+ "The options you can choose are from 0 to 3\n");
+					+ "The options you can choose are from 0 to 2\n");
 		}
 	}
 

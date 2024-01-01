@@ -1,11 +1,9 @@
-package com.mycompany.ooptermhw.Dairy;
-
+package com.mycompany.ooptermhw.dairy;
 import java.util.ArrayList;
-import java.util.List;
 
 public class DaysInfo {
 		
-	private List<Days> allDays = new ArrayList<Days>();
+	private ArrayList<Days> allDays = new ArrayList<Days>();
 	public DaysInfo(String weekdays) {	//constructor to create weekday classes 
 		Monday mon = new Monday();
 		Tuesday tue = new Tuesday();
