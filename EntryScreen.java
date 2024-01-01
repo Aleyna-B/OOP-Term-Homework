@@ -6,9 +6,7 @@ public class EntryScreen extends InputControl{
 									+ "(3)- Food\n"
 									+ "(4)- Studies\n"
 									+ "(5)- Entertainment\n"
-									+ "(6)- Health\n"
-									+ "(7)- Games\n"
-									+ "(8)- Other";
+									+ "(6)- Other";
 	public boolean takeInput() { 
 	  this.setOpt(0); 		//preventing unexpected values 
 	  System.out.println("Choose an option below to get to know me.\nIf you do not "
@@ -19,10 +17,10 @@ public class EntryScreen extends InputControl{
 	
 	public void intervalControl()
 	{
-		if(this.getOpt()<0 || this.getOpt()>8)
+		if(this.getOpt()<0 || this.getOpt()>6)
 		{
 			System.out.println("I think you accidentally pressed something you should not have.\n"
-					+ "The options you can choose are from 0 to 8\n");
+					+ "The options you can choose are from 0 to 6\n");
 		}
 	}
 	

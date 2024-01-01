@@ -1,4 +1,4 @@
-package com.mycompany.ooptermhw.Dairy;
+package com.mycompany.ooptermhw.dairy;
 
 public class Friday extends Days implements IWeekday {
     public String Lessons()

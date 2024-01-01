@@ -1,6 +1,5 @@
 package com.mycompany.ooptermhw.food;
 import java.util.ArrayList;
-
 import com.mycompany.ooptermhw.InputControl;
 
 public class ForFood extends InputControl{
@@ -27,6 +26,7 @@ public class ForFood extends InputControl{
 		options.forEach(op -> System.out.print(op));
 		if(baseControl())
 		{
+			//options.set(getOpt(), "");
 			switch (this.getOpt())
 			{
 			case 1: System.out.println("Enjoy all your meals then!\n");

@@ -9,7 +9,7 @@ public class Schedule extends InputControl implements ISubAnswer{
 				+ "If it is a subject that i do not really like or if a have "
 				+ "a data structures homework, it gets harder to study. I try not to use "
 				+ "social media to not waste my time but i sometimes fail to do so.\n"
-				+ "Was this answer satisfactory?\n(1)- Yes (2)- No");
+				+ "Was this answer satisfactory?\n(1)- Yes\n(2)- No");
 		baseControl();
 		if(this.getOpt()==1) System.out.println("Alright then.\n");
 		else if(this.getOpt()==2) {
