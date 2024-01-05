@@ -1,4 +1,4 @@
-<b>Get To Know Me Bot</b>
+#Get To Know Me Bot
 <br>This is a java program that works as a get to know me bot which was prepared by me for my Object Oriented Programming term homework.
 <br>It includes many abstract and instance classes as well as interfaces. I tried to practice SOLID principles with this app.
 <br>
