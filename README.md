@@ -1,7 +1,7 @@
 # OOP Term Homework
 <br>This is a java program prepared by me for my Object Oriented Programming term homework.
 <br>It includes many abstract and instance classes as well as interfaces.
-<br>Main abstract classes and methods within them are used all over the program for code reusability.
+<br>Generalized abstract classes and interfaces to implement <i> input control, choice making and program flow <i> are used all over the program for code reusability.
 <br>
 ![image](https://github.com/Aleyna-B/OOP_TermHw/assets/122743833/15dccb7d-7ff2-46c0-8520-5ae46389b88b)
 ![image](https://github.com/Aleyna-B/OOP_TermHw/assets/122743833/bd2bddd0-64ba-45fc-9bcb-435f7413429a)
